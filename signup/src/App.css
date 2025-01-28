@@ -1,0 +1,116 @@
+/* Existing general styling */
+
+body {
+  background-color: rgb(214, 212, 212); 
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  /* Adjust as needed */
+}
+
+.container {
+  background-color: #fff; /* Adjusted for clarity */
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  transition: transform 0.2s;
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px; /* Added unit */
+}
+
+h1 {
+  font-size: 2em; /* Adjusted for clarity */
+  text-align: center;
+  color: #4206a3;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  text-align: left;
+  color: #555;
+  font-size: 15px;
+}
+
+input {
+  display: block;
+  width: 100%; /* Made inputs full width */
+  box-sizing: border-box;
+  padding: 9px;
+  border: 1px solid #add8e6; /* Adjusted border color */
+  border-radius: 3px;
+  font-size: 14px; /* Adjusted font size */
+}
+
+.select {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #add8e6; /* Fixed border typo */
+  border-radius: 5px;
+}
+
+textarea {
+  resize: none;
+  width: 100%; /* Ensures full width */
+  min-height: 100px;
+  max-height: 150px;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin: 15px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: #4206a3;
+  width: 40%;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #535bf2;
+}
+
+
+label[for='gender'] {
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: left;
+  color: #555;
+  font-size: 15px;
+  display: block;
+}
+
+
+.radio-container {
+  display: flex;                    
+  gap: 15px;                        
+  margin-bottom: 15px;              
+  align-items: center;              
+  justify-content: flex-start;      
+}
+
+
+.radio-container label {
+  font-size: 14px;                  
+  display: flex;
+  align-items: center;              
+  color: #555;
+}
+
+.radio-container input[type="radio"] {
+  margin-right: 5px;               
+}
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 4px;
+}
